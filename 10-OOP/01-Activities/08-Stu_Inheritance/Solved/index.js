@@ -8,7 +8,7 @@ class ForumItem {
 }
 
 // TODO: Setup BlogPost and Comment so they inherit their structure from ForumItem.
-class BlogPost extends ForumItem {
+class BlogPost extends ForumItem {//extends is used to identify the parent
   constructor(authorName, title, text, createdOn) {
     super(authorName, text, createdOn);
     this.title = title;

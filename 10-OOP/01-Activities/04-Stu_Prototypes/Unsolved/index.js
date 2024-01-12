@@ -1,4 +1,5 @@
 // TODO: Add a comment describing what kind of function this is
+//this function is a constructor used to insert comments 
 function BlogPost(authorName, title, text, createdOn) {
   this.authorName = authorName;
   this.title = title;
@@ -11,6 +12,7 @@ function BlogPost(authorName, title, text, createdOn) {
 }
 
 // TODO: Add a comment describing the purpose of `.prototype` in this method declaration
+//prototype adds a comment to any blogpost 
 BlogPost.prototype.addComment = function(comment) {
   this.comments.push(comment);
 };
@@ -25,4 +27,5 @@ const post = new BlogPost(
 post.addComment('Nice post, I like it!');
 
 // TODO: Add a comment describing what you expect to see printed in the console
+//comments input by the user will be displayed in the console
 console.log(post.comments);

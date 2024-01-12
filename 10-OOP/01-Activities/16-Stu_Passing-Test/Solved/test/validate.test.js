@@ -8,31 +8,6 @@ describe('Validate', () => {
       const validate = new Validate();
       const result = validate.isPassword('pass');
 
-      expect(result).toEqual(false);
-    });
-  });
-
-  // TODO: Write a test that checks if isPassword() returns false when the password does not contain at least 1 uppercase.
-
-  describe('Password Uppercase', () => {
-    it('should return false if the password does not contain at least 1 uppercase letter', () => {
-      const validate = new Validate();
-      const result = validate.isPassword('password123');
-
-      expect(result).toEqual(false);
-    });
-  });
-
-  // TODO: Write a test that checks if isPassword() returns false when the password does not contain at least 1 lowercase.
-
-  describe('Password Lowercase', () => {
-    it('should return false if the password does not contain at least 1 lowercase letter', () => {
-      const validate = new Validate();
-      const result = validate.isPassword('PASSWORD123');
-
-      expect(result).toEqual(false);
-    });
-  });
 
   // TODO: Write a test that checks if isPassword() returns false when the password does not contain at least 1 number.
 

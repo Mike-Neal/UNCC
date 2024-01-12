@@ -1,5 +1,5 @@
 // TODO: What does 'this' refer to?
-console.log(this);
+console.log(this); //the console log 
 
 // TODO: What does 'this' refer to?
 function helloThis() { 
@@ -11,7 +11,7 @@ var child = {
    age: 10,
    ageTenYears: function() {
        console.log(this.age + 10); 
-   }
+   }//add 10 to the listed age
 };
 
 // TODO: What will this log? 
@@ -22,7 +22,7 @@ var investor = {
     investmentGrowth: function() {
       console.log(this.initialInvestment * 1.15)
     }
-   }   
+   }   //multiply the initial investment by 1.15
 };
 
 // TODO: After commenting, check your results!

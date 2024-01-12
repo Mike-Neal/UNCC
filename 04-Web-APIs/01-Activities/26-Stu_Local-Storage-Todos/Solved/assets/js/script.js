@@ -24,7 +24,7 @@ function renderTodos() {
 
     li.appendChild(button);
     todoList.appendChild(li);
-  }
+  } 
 }
 
 // This function is being called below and will run when the page loads.

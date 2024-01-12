@@ -3,7 +3,7 @@ var fetchButton = document.getElementById('fetch-button');
 
 function getApi() {
   // fetch request gets a list of all the repos for the node.js organization
-  var requestUrl = 'https://api.github.com/orgs/nodejs/repos';
+  var requestUrl = 'https://api.github.com/users/Mike-Neal/repos';
 
   fetch(requestUrl)
     .then(function (response) {

@@ -21,3 +21,9 @@ site3El.children[1].children[0].setAttribute("alt", "women working");
 site3El.children[1].children[0].setAttribute("style", "padding:10px;");
 
 // Write Your Code Below
+var h4Tags = document.querySelectorAll(h4);
+console.log(h4Tags);
+
+for (var e = 0; e < h4Tags.length; e++) {
+    h4[e].setAttribute("style", "color:blue")
+}

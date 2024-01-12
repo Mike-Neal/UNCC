@@ -4,6 +4,8 @@ var studentName;
 // Uses assignment operator(=) to assign a value
 var studentName = "Abdul";
 var studentAge = 32;
+var pets = 25
+var fun fact = "One of them is named Garfield"
 
 // To re-assign a variable, use only the variable's name  
 studentName = "Tonya";

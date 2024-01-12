@@ -4,6 +4,7 @@
   --teal: #71a8a7;
   --lightteal: #d5f5f5;
   --light: #fffaf7;
+  font-family: 'Rubik Maps', sans-serif;
 }
 
 ::selection {
@@ -13,6 +14,7 @@
 
 .custom-navbar {
   background-color: var(--teal);
+  font-family: 'Rubik Scribble', sans-serif;
 }
 
 .custom-navbar a {
@@ -27,6 +29,7 @@
 .hero {
   background-color: var(--lightteal);
   color: var(--teal);
+  font-family: 'Rubik Maps', sans-serif;
 }
 
 .custom-btn {

@@ -6,10 +6,10 @@ var todoCountSpan = document.querySelector("#todo-count");
 var todos = [];
 
 // TODO: What is the purpose of this function?
-function renderTodos() {
+function renderTodos() { //add Todos to the page as list elements
   // TODO: Describe the functionality of the following two lines of code.
   todoList.innerHTML = "";
-  todoCountSpan.textContent = todos.length;
+  todoCountSpan.textContent = todos.length; // clears the Todo list and resets the count
   
   // TODO: Describe the functionality of the following `for` loop.
   for (var i = 0; i < todos.length; i++) {
@@ -24,7 +24,7 @@ function renderTodos() {
 
     li.appendChild(button);
     todoList.appendChild(li);
-  }
+  } //makes a new list item for each Todo
 }
 
 // TODO: What is the purpose of the following function?

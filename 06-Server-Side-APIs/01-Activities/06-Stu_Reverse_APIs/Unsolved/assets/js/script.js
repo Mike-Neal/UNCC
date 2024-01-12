@@ -6,7 +6,7 @@ $.ajax({
   url: requestUrl,
   method: 'GET',
 }).then(function (response) {
-  console.log('AJAX Response \n-------------');
+  console.log('AJAX Response \n-------------'); // it will display the response from the URL
   console.log(response);
 });
 

@@ -5,6 +5,7 @@ var limitWarningEl = document.querySelector('#limit-warning');
 var getRepoName = function () {
   // Where is this value coming from?
   // TODO: Write your answer here
+  // URL search
   var queryString = document.location.search;
   var repoName = queryString.split('=')[1];
 
@@ -73,6 +74,7 @@ var displayIssues = function (issues) {
 
 // What does this function do?
 // TODO: Write your answer here
+// tell that this is the end of the 30 items and to visit a link for more values
 var displayWarning = function (repo) {
   limitWarningEl.textContent = 'To see more than 30 issues, visit ';
 

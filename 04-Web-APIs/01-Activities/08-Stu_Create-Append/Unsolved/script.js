@@ -35,3 +35,15 @@ kittenEl.setAttribute("style", "font-size:25px; text-align:center;");
 favoriteEl.setAttribute("style", "font-size:20px;");
 
 // TODO: Add ordered list items containing four favorite foods
+li1.textContent = "Sushi"
+listEl.appendChild(li1);
+li1.setAttribute("style", "background-color: #33333; padding 20px");
+
+li2.textContent = "party wings"
+listEl.appendChild(li2)
+
+li3.textContent = "tamahawk steak"
+listEl.appendChild(li3)
+
+li4.textContent = "Singapore Chow Mei Fun"
+listEl.appendChild(li4)

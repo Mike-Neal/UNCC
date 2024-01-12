@@ -2,10 +2,10 @@
 const songs = ['Creep', 'Everlong', 'Bulls On Parade', 'Song 2', 'What I Got'];
 
 // TODO: Which operator is being used here?
-const newSongs = [...songs];
+const newSongs = [...songs]; //spread
 
 // TODO: What do you expect to be logged in the console?
-console.log(newSongs);
+console.log(newSongs); //all of the listed songs
 
 // Exercise 2
 const addition = (x, y, z) => {
@@ -14,10 +14,10 @@ const addition = (x, y, z) => {
   return array.reduce((a, b) => a + b, 0);
 };
 // TODO: What do you expect to be logged in the console?
-console.log(addition(1, 2, 3));
+console.log(addition(1, 2, 3)); //6
 
 // TODO: What is this syntax that is being used as the parameter?
-const additionSpread = (...array) => {
+const additionSpread = (...array) => { //rest
   return array.reduce((a, b) => a + b, 0);
 };
 
